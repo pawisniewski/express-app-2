@@ -21,8 +21,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-    res.show('home.html');
-  });
+  res.show('home.html');
+});
 
 app.get('/about', (req, res) => {
   res.show('about.html');
